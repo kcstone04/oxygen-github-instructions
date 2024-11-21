@@ -1,0 +1,261 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="copyright" content="(C) Copyright 2024"><meta name="generator" content="DITA-OT"><meta name="description" content="In this step, you'll learn how to start adding content to Oxygen"><meta property="og:type" content="website"><meta property="og:url" content="https://jason-fox.github.io/dita-ot-plugins/dita/task-oxygen-content.html"><meta property="og:title" content="Adding Content on Oxygen"><meta property="og:description" content="In this step, you'll learn how to start adding content to Oxygen"><meta property="og:image" content="https://jason-fox.github.io/dita-ot-plugins/open-graph.svg"><meta name="twitter:title" content="Adding Content on Oxygen"><meta name="twitter:description" content="In this step, you'll learn how to start adding content to Oxygen"><meta property="twitter:url" content="https://jason-fox.github.io/dita-ot-plugins/dita/task-oxygen-content.html"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://jason-fox.github.io/dita-ot-plugins/open-graph.svg"><title>Adding Content on Oxygen</title><script src="../js/lunr-client.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><link rel="shortcut icon" href="../favicon/favicon.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="../css/commonltr.css">
+<link rel="stylesheet" type="text/css" href="../css/common-extended.css"><link rel="stylesheet" type="text/css" href="../css/theme.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" integrity="sha384-XGjxtQfXaH2tnPFa9x+ruJTuLE3Aa6LhHSWRr1XeTyhezb4abCG4ccI5AkVDxqC+" crossorigin="anonymous"></head><body id="task_ivr_mcp_jdc" data-bs-spy="scroll" data-bs-target="#bs-scrollspy"><div class="visually-hidden-focusable overflow-hidden p-2 bg-body-tertiary"><div class="container-xl"><a class="d-inline-flex m-1 btn btn-outline-primary btn-sm" href="#ariaid-title1">Skip to main content</a><a href="#bs-sidebar-nav" class="d-none d-md-inline-flex m-1 btn btn-outline-primary btn-sm">Skip to docs navigation</a></div></div><header role="banner" class="sticky-top"><nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-xxl">
+    <!-- This shows the menu on mobile -->
+    <div class="bd-navbar-toggle">
+      <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+    </div>
+    <a class="navbar-brand" href="index.html">
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+</svg>
+<!--      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M6 0a.5.5 0 0 1 .5.5V3h3V.5a.5.5 0 0 1 1 0V3h1a.5.5 0 0 1 .5.5v3A3.5 3.5 0 0 1 8.5 10c-.002.434-.01.845-.04 1.22-.041.514-.126 1.003-.317 1.424a2.083 2.083 0 0 1-.97 1.028C6.725 13.9 6.169 14 5.5 14c-.998 0-1.61.33-1.974.718A1.922 1.922 0 0 0 3 16H2c0-.616.232-1.367.797-1.968C3.374 13.42 4.261 13 5.5 13c.581 0 .962-.088 1.218-.219.241-.123.4-.3.514-.55.121-.266.193-.621.23-1.09.027-.34.035-.718.037-1.141A3.5 3.5 0 0 1 4 6.5v-3a.5.5 0 0 1 .5-.5h1V.5A.5.5 0 0 1 6 0zM5 4v2.5A2.5 2.5 0 0 0 7.5 9h1A2.5 2.5 0 0 0 11 6.5V4H5z"></path>
+      </svg> 
+      -->
+        <span class="align-middle">DITA Open Toolkit experiments</span>
+    </a>
+    <button class="navbar-toggler py-2 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-three-dots"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item d-flex align-items-center">
+          <form class="position-relative me-auto search-box rounded">
+            <div class="input-group">
+              <span class="input-group-text bg-primary-subtle">
+                <i class="bi bi-search"></i>
+              </span>
+              <input type="search" class="form-control form-floating" placeholder="Search…" aria-label="Search for…" dir="auto">
+            </div>
+          </form>
+        </li>
+        <!--
+          This is a dark/light color theme toggler.
+          It requires JavaScript to function.
+        -->
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+            <span class="d-light">
+              <i class="bi bi-brightness-high-fill"></i>
+            </span>
+            <span class="d-dark">
+              <i class="bi bi-moon-stars-fill"></i>
+            </span>
+            <span class="d-auto">
+              <i class="bi bi-circle-half"></i>
+            </span>
+            <span class="d-lg-none ms-2">Toggle theme</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                <i class="bi bi-brightness-high-fill"></i>
+                <span class="ms-2">Light</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                <i class="bi bi-moon-stars-fill"></i>
+                <span class="ms-2">Dark</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+                <i class="bi bi-circle-half"></i>
+                <span class="ms-2">Auto</span>
+              </button>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav></header><div class="bs-container container-xxl bd-gutter mt-3 my-md-4" id="content"><div class="overflow-y-auto bs-sidebar"><div class="offcanvas-lg offcanvas-start" tabindex="-1" id="bdSidebar" aria-labelledby="bdSidebarOffcanvasLabel" aria-modal="true" role="dialog"><div class="offcanvas-header border-bottom"><h5 class="offcanvas-title" id="bdSidebarOffcanvasLabel">Publishing DITA to GitHub Using the Actions Template</h5><button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdSidebar"></button></div><div class="offcanvas-body flex-column h-100"><nav class="d-flex flex-align-start flex-column h-100 overflow-y-auto" role="navigation" id="bs-sidebar-nav"><div class="overflow-y-auto"><div class="flex-column bd-links"><ul class="list-unstyled mb-0 py-3 pt-md-1"><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../index.html">Introduction</a></div></li><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../task-github-acct.html">Create an Account on GitHub</a></div></li><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../task-repo.html">Creating the GitHub Repository</a></div></li><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../task-oxygen-acct.html">Log In to Your Account on Oxygen Content Fusion </a></div></li><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../task-project.html">Making a Project in Oxygen Content Fusion</a></div></li><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../task-oxygen-content.html">Adding Content on Oxygen</a></div></li><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../task-publishing.html">Publishing to GitHub Using GitHub Actions</a></div></li></ul></div></div></nav></div></div></div><main role="main" class="bs-main me-3"><article role="article" class="bs-content" aria-labelledby="ariaid-title1">
+    <h1 class="title text-primary" id="ariaid-title1">Adding Content on Oxygen</h1>
+    
+    <div class="body taskbody"><p class="shortdesc text-body-secondary lead">In this step, you'll learn how to start adding content to Oxygen</p>
+        <section class="section context">This task includes learning how to create a ditamap and create files, implement
+            titles, descriptions, subheadings, paragraphs, and more<p class="p">Steps</p></section>
+        <section><ol class="ol steps"><li class="li step stepexpand">
+                <span class="ph cmd">Creating a DITA map</span>
+                <ol type="a" class="ol substeps">
+                    <li class="li substep">
+                        <span class="ph cmd">Click on the three dots to open files</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_vjh_ksl_ldc">
+                                
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 1. </span>Image Depicting This Step Described Above<img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_rvb_gsl_ldc" src="../Images/Oxygen%20Content%20Task/threedots.png" alt="Arrow pointing to three dots at the top of the screen and next to the label &#34;File&#34;."></figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Click "New File"</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_iyb_lsl_ldc">
+                                
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 2. </span>Image Depicting This Step Described Above<img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_s5j_lsl_ldc" src="../Images/Oxygen%20Content%20Task/newfile.png" alt="Arrow pointing to the drop down menu, specific the one labeled &#34;New File&#34;."></figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Click on the tab marked "DITA" on the left side menu. </span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_idq_ssl_ldc">
+                                
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 3. </span>Image Depicting This Step Described Above<img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_zcp_zsl_ldc" src="../Images/Oxygen%20Content%20Task/tabmarkeddita.png" alt="Arrow pointing to a button called &#34;DITA&#34; on the left hand side menu."></figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Click on the option titled "Map".</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_k5h_ctl_ldc">
+                                
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 4. </span>Image Depicting This Step Described Above<img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_w3x_ctl_ldc" src="../Images/Oxygen%20Content%20Task/filecalledmap.png" alt="Arrow pointing to an option in the center menu labeled &#34;Map&#34;."></figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Name the .ditamap "document".</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_lxz_ltl_ldc">
+                                
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 5. </span>Image Depicting This Step Described Above<img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_jh1_dvl_ldc" src="../Images/Oxygen%20Content%20Task/titleformap.png" alt="Arrow is pointing to a text box labeled &#34;Enter Title&#34; and in the text box is the word &#34;document&#34;."></figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Click the blue button labeled "OK".  </span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_xcy_htl_ldc">
+                                
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 6. </span>Image Depicting This Step Described Above<img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_pdw_fvl_ldc" src="../Images/Oxygen%20Content%20Task/okmap.png" alt="Arrow is pointing to a blue button at the button of the page that is titled &#34;Ok&#34;."></figcaption></figure>
+
+                        </div>
+                    </li>
+                </ol>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Creating a Topic</span>
+                <ol type="a" class="ol substeps" id="task_ivr_mcp_jdc__substeps_q1x_stl_ldc">
+                    <li class="li substep">
+                        <span class="ph cmd">Click on the three dots to open files</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_vqb_rtl_ldc">
+                                
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 7. </span>Image Depicting This Step Described Above<img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_wqb_rtl_ldc" src="../Images/Oxygen%20Content%20Task/threedots.png" alt="Arrow pointing to three dots at the top of the screen and next to the label &#34;File&#34;."></figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Click "New File"</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_u1x_stl_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_v1x_stl_ldc" src="../Images/Oxygen%20Content%20Task/newfile.png" alt="Arrow pointing to the drop down menu, specific the one labeled &#34;New File&#34;.">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 8. </span>Image Depicting This Step Described Above</figcaption></figure>
+
+                        </div>
+                    </li>
+                </ol>
+                <ol type="a" class="ol substeps" id="task_ivr_mcp_jdc__substeps_r1x_stl_ldc">
+                    <li class="li substep">
+                        <span class="ph cmd">Click on the tab marked "DITA" on the left side menu.</span>
+                    </li>
+                </ol>
+                <div class="itemgroup info">
+                    <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_ibx_ztl_ldc">
+                        
+                        <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_jbx_ztl_ldc" src="../Images/Oxygen%20Content%20Task/tabmarkeddita.png" alt="Arrow pointing to a button called &#34;DITA&#34; on the left hand side menu.">
+                    <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 9. </span>Image Depicting This Step Described Above</figcaption></figure>
+
+                </div>
+                <ol type="a" class="ol substeps" id="task_ivr_mcp_jdc__substeps_gbx_ztl_ldc">
+                    <li class="li substep">
+                        <span class="ph cmd">Click on the option titled "Topic".</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_zwk_b5l_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_nyb_c5l_ldc" src="../Images/Oxygen%20Content%20Task/clicktopic.png" alt="Arrow pointing to the center menu at the option titled &#34;Topic&#34;.">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 10. </span>Image Depicting This Step Described Above</figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Give the New File a name</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_pjl_qvl_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_r51_5vl_ldc" src="../Images/Oxygen%20Content%20Task/titlefortopic.png" alt="Arrow is pointing to a text box at the bottom of the screen that is labeled &#34;Enter Text&#34;.">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 11. </span>Image Depicting This Step Described Above</figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Click the blue button labeled "OK". </span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_gjw_zvl_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_kvb_1wl_ldc" src="../Images/Oxygen%20Content%20Task/oktopic.png" alt="Arrow is pointing to a blue button at the bottom of the screen labeled &#34;Ok&#34;.">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 12. </span>Image Depicting This Step Described Above</figcaption></figure>
+
+                        </div>
+                    </li>
+                </ol>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Drag the topic file into the DITA map file</span>
+            </li></ol><li class="li stepsection">
+                <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_p3v_gwl_ldc">
+                    
+                    <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_t4b_hwl_ldc" src="../Images/Oxygen%20Content%20Task/topicdragditmap.png" alt="One arrow is pointing to a topic.dita file, while the other arrow that is connect to the first on is pointing into the ditmap file.">
+                <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 13. </span>Image Depicting This Step Described Above</figcaption></figure>
+
+            </li><ol class="ol steps" start="4"><li class="li step stepexpand">
+                <span class="ph cmd">Start adding your content</span>
+                <ol type="a" class="ol substeps">
+                    <li class="li substep">
+                        <span class="ph cmd">Click the "Return" key on your keyboard anywhere on the Topic File. </span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_kcf_cyl_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_jfm_dyl_ldc" src="../Images/Oxygen%20Content%20Task/returnontitle.png" alt="Arrow is pointing to a text box that appeared that the top of the page when the key &#34;Returned&#34; was pressed.">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 14. </span>Image Depicting This Step Described Above</figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Type in the text box whatever type of content you would like to add to
+                            that Topic File. Examples could be Titles, Subtitles, Short
+                            descriptions, Sections, Figures, Images, Adding alt text, Paragraphs,
+                            etc. </span>
+                    </li>
+                </ol>
+            </li></ol></section>
+    </div>
+</article></main></div><script language="javascript" src="../js/popovers.js"></script><script language="javascript" src="../js/dark-mode-toggler.js"></script><footer role="contentinfo" class="mt-3 border-top bg-primary-subtle"><!-- Footer --><footer class="text-center" style="background-color: rgba(0, 0, 0, 0.2)">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <!-- Social Media -->
+        <p class="text-center p-3">
+          <!-- Linkedin
+          <a class="btn btn-primary btn-floating m-1 text-white" style="background-color: #0082ca" href="https://www.linkedin.com/in/jason-fox-8a79563/" role="button"><i class="bi bi-linkedin"></i></a>
+           -->
+          <!-- Github 
+          <a class="btn btn-primary btn-floating m-1 text-white" style="background-color: #333333" href="https://github.com/carlosevia/" role="button"><i class="bi bi-github"></i></a>
+        -->
+        </p>
+      </div>
+      <div>
+      </div>
+    </div>
+  </div>
+</footer><!-- Footer --></footer></body></html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="copyright" content="(C) Copyright 2024"><meta name="generator" content="DITA-OT"><meta name="description" content="In this step, you will learn how to create a project on Oxygen Content Fusion."><meta property="og:type" content="website"><meta property="og:url" content="https://jason-fox.github.io/dita-ot-plugins/dita/task-project.html"><meta property="og:title" content="Making a Project in Oxygen Content Fusion"><meta property="og:description" content="In this step, you will learn how to create a project on Oxygen Content Fusion."><meta property="og:image" content="https://jason-fox.github.io/dita-ot-plugins/open-graph.svg"><meta name="twitter:title" content="Making a Project in Oxygen Content Fusion"><meta name="twitter:description" content="In this step, you will learn how to create a project on Oxygen Content Fusion."><meta property="twitter:url" content="https://jason-fox.github.io/dita-ot-plugins/dita/task-project.html"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://jason-fox.github.io/dita-ot-plugins/open-graph.svg"><title>Making a Project in Oxygen Content Fusion</title><script src="../js/lunr-client.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><link rel="shortcut icon" href="../favicon/favicon.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="../css/commonltr.css">
+<link rel="stylesheet" type="text/css" href="../css/common-extended.css"><link rel="stylesheet" type="text/css" href="../css/theme.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" integrity="sha384-XGjxtQfXaH2tnPFa9x+ruJTuLE3Aa6LhHSWRr1XeTyhezb4abCG4ccI5AkVDxqC+" crossorigin="anonymous"></head><body id="task_ivr_mcp_jdc" data-bs-spy="scroll" data-bs-target="#bs-scrollspy"><div class="visually-hidden-focusable overflow-hidden p-2 bg-body-tertiary"><div class="container-xl"><a class="d-inline-flex m-1 btn btn-outline-primary btn-sm" href="#ariaid-title1">Skip to main content</a><a href="#bs-sidebar-nav" class="d-none d-md-inline-flex m-1 btn btn-outline-primary btn-sm">Skip to docs navigation</a></div></div><header role="banner" class="sticky-top"><nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-xxl">
+    <!-- This shows the menu on mobile -->
+    <div class="bd-navbar-toggle">
+      <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+    </div>
+    <a class="navbar-brand" href="index.html">
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+</svg>
+<!--      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M6 0a.5.5 0 0 1 .5.5V3h3V.5a.5.5 0 0 1 1 0V3h1a.5.5 0 0 1 .5.5v3A3.5 3.5 0 0 1 8.5 10c-.002.434-.01.845-.04 1.22-.041.514-.126 1.003-.317 1.424a2.083 2.083 0 0 1-.97 1.028C6.725 13.9 6.169 14 5.5 14c-.998 0-1.61.33-1.974.718A1.922 1.922 0 0 0 3 16H2c0-.616.232-1.367.797-1.968C3.374 13.42 4.261 13 5.5 13c.581 0 .962-.088 1.218-.219.241-.123.4-.3.514-.55.121-.266.193-.621.23-1.09.027-.34.035-.718.037-1.141A3.5 3.5 0 0 1 4 6.5v-3a.5.5 0 0 1 .5-.5h1V.5A.5.5 0 0 1 6 0zM5 4v2.5A2.5 2.5 0 0 0 7.5 9h1A2.5 2.5 0 0 0 11 6.5V4H5z"></path>
+      </svg> 
+      -->
+        <span class="align-middle">DITA Open Toolkit experiments</span>
+    </a>
+    <button class="navbar-toggler py-2 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-three-dots"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item d-flex align-items-center">
+          <form class="position-relative me-auto search-box rounded">
+            <div class="input-group">
+              <span class="input-group-text bg-primary-subtle">
+                <i class="bi bi-search"></i>
+              </span>
+              <input type="search" class="form-control form-floating" placeholder="Search…" aria-label="Search for…" dir="auto">
+            </div>
+          </form>
+        </li>
+        <!--
+          This is a dark/light color theme toggler.
+          It requires JavaScript to function.
+        -->
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+            <span class="d-light">
+              <i class="bi bi-brightness-high-fill"></i>
+            </span>
+            <span class="d-dark">
+              <i class="bi bi-moon-stars-fill"></i>
+            </span>
+            <span class="d-auto">
+              <i class="bi bi-circle-half"></i>
+            </span>
+            <span class="d-lg-none ms-2">Toggle theme</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                <i class="bi bi-brightness-high-fill"></i>
+                <span class="ms-2">Light</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                <i class="bi bi-moon-stars-fill"></i>
+                <span class="ms-2">Dark</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+                <i class="bi bi-circle-half"></i>
+                <span class="ms-2">Auto</span>
+              </button>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav></header><div class="bs-container container-xxl bd-gutter mt-3 my-md-4" id="content"><div class="overflow-y-auto bs-sidebar"><div class="offcanvas-lg offcanvas-start" tabindex="-1" id="bdSidebar" aria-labelledby="bdSidebarOffcanvasLabel" aria-modal="true" role="dialog"><div class="offcanvas-header border-bottom"><h5 class="offcanvas-title" id="bdSidebarOffcanvasLabel">Publishing DITA to GitHub Using the Actions Template</h5><button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdSidebar"></button></div><div class="offcanvas-body flex-column h-100"><nav class="d-flex flex-align-start flex-column h-100 overflow-y-auto" role="navigation" id="bs-sidebar-nav"><div class="overflow-y-auto"><div class="flex-column bd-links"><ul class="list-unstyled mb-0 py-3 pt-md-1"><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../index.html">Introduction</a></div></li><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../task-github-acct.html">Create an Account on GitHub</a></div></li><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../task-repo.html">Creating the GitHub Repository</a></div></li><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../task-oxygen-acct.html">Log In to Your Account on Oxygen Content Fusion </a></div></li><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../task-project.html">Making a Project in Oxygen Content Fusion</a></div></li><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../task-oxygen-content.html">Adding Content on Oxygen</a></div></li><li><div class="d-flex flex-row"><a class="d-inline-flex align-items-center flex-shrink-1 ps-3" href="../task-publishing.html">Publishing to GitHub Using GitHub Actions</a></div></li></ul></div></div></nav></div></div></div><main role="main" class="bs-main me-3"><article role="article" class="bs-content" aria-labelledby="ariaid-title1">
+    <h1 class="title text-primary" id="ariaid-title1">Making a Project in Oxygen Content Fusion</h1>
+    
+    <div class="body taskbody"><p class="shortdesc text-body-secondary lead">In this step, you will learn how to create a project on Oxygen Content
+        Fusion.</p>
+        <section class="section context">This task includes learning how to create a project file on Oxygen Content Fusion
+            that links to the repository you created in GitHub.</section>
+        <section><ol class="ol steps"><li class="li step stepexpand">
+                <span class="ph cmd">Hover over the top left corner of the screen and select the "Projects"
+                    tab</span>
+            </li></ol><li class="li stepsection">
+                <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_pdp_db1_ldc">
+                    
+                    <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_xs4_gb1_ldc" src="../Images/clickproject.png" alt="An arrow is pointing to a white button in the top left hand corner of the screen that is titled projects.">
+                <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 1. </span>Image depicting step described above</figcaption></figure>
+
+            </li><ol class="ol steps" start="2"><li class="li step stepexpand">
+                <span class="ph cmd">Click "New Project" in Oxygen Content Fusion</span>
+            </li></ol><li class="li stepsection">
+                <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_mph_lb1_ldc">
+                    
+                    <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_skl_mb1_ldc" src="../Images/newproject.png" alt="An arrow pointed to a blue button on the right hand side of the screen that is titled New Project.">
+                <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 2. </span>Image depicting step described above</figcaption></figure>
+
+            </li><ol class="ol steps" start="3"><li class="li step stepexpand">
+                <span class="ph cmd">Create a name for your new project</span>
+            </li></ol><li class="li stepsection">
+                <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_bvk_pb1_ldc">
+                    
+                    <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_abx_pb1_ldc" src="../Images/nameproject.png" alt="An arrow is pointing to a type box that is labeled &#34;Name&#34;.">
+                <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 3. </span>Image depicting step described above</figcaption></figure>
+
+            </li><ol class="ol steps" start="4"><li class="li step stepexpand">
+                <span class="ph cmd">Copy the link from your repository</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Paste link of your repository into Oxygen </span>
+            </li></ol><li class="li stepsection">
+                <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_npj_wb1_ldc">
+                    
+                    <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_f31_yb1_ldc" src="../Images/giturlproject.png" alt="Arrow pointing to the text box that has the repository link. ">
+                <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 4. </span>Image depicting step described above</figcaption></figure>
+
+            </li><ol class="ol steps" start="6"><li class="li step stepexpand">
+                <span class="ph cmd">Set the branch to "master"</span>
+            </li></ol><li class="li stepsection">
+                <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_arx_rzj_ldc">
+                    
+                    <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_cw1_tzj_ldc" src="../Images/masterbranchproject.png" alt="Arrow pointing to a text box labeled &#34;Branch&#34;.">
+                <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 5. </span>Image depicting step described above</figcaption></figure>
+
+            </li><ol class="ol steps" start="7"><li class="li step stepexpand">
+                <span class="ph cmd">Paste your GitHub Username into Oxygen </span>
+            </li></ol><li class="li stepsection">
+                <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_oc4_rdk_ldc">
+                    
+                    <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_qj5_5dk_ldc" src="../Images/githubusernameproject.png" alt="Arrow points to a text box labeled &#34;Username&#34;.">
+                <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 6. </span>Image depicting step described above</figcaption></figure>
+
+            </li><ol class="ol steps" start="8"><li class="li step stepexpand">
+                <span class="ph cmd">Get a GitHub token to connect it to the GitHub repository</span>
+                <ol type="a" class="ol substeps">
+                    <li class="li substep">
+                        <span class="ph cmd">Click the link next “Generate Access Token”</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_dbc_32k_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_tc4_m2k_ldc" src="../Images/generateaccesstoken.png" alt="Arrow points to a link at the bottom of the screen that is labeled &#34;Generate Access Token&#34;.">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 7. </span>Image depicting step described above</figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Click “Generate New Token” at the top left hand of the screen. </span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_xzh_rfk_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_dk2_sfk_ldc" src="../Images/clickgeneratenewtoke.png" alt="Arrow pointing to the top of the right side of the screen to a button labeled &#34;Generate New Token&#34;.">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 8. </span>Image depicting step described above</figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Type in a new name for this token</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_vjh_5kk_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_sdc_vkk_ldc" src="../Images/nametoken.png" alt="Arrow is pointed to a text box labeled &#34;token name&#34;.">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 9. </span>Image depicting step described above</figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Click on “Only Selected Repositories”</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_dbt_ylk_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_py3_1mk_ldc" src="../Images/onlyselectedrepostiry.png" alt="Arrow is pointing to a check box labeled &#34;Only Selected Repositories&#34;.">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 10. </span>Image depicting step described above</figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Select the repository you made that you would like to connect to
+                            Oxygen. </span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_ghw_pdl_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_pxw_qdl_ldc" src="../Images/selectrepositoryfortoken.png" alt="Arrow pointing ot a text box that is labeled &#34;Search for Repository&#34;">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 11. </span>Image depicting step described above</figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Click “Repository Permissions”</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_kzg_5dl_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_bww_5dl_ldc" src="../Images/clickrepositorypermissions.png" alt="Arrow pointing to a drop down labeled &#34;Repository Permissions&#34;.">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 12. </span>Image depicting step described above</figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Give it Read and Write Access under Contents</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_qgf_xdl_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_jwq_xdl_ldc" src="../Images/contentsredandwrite.png" alt="Arrow pointing to a drop down that is connected to contents.">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 13. </span>Image depicting step described above</figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Click Generate Token</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_alt_12l_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_b5j_b2l_ldc" src="../Images/clickgeneratetokengreenbotton.png" alt="Arrow pointing at a green button at the bottom of the page called &#34;Generate Token&#34;.">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 14. </span>Image depicting step described above</figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Copy Access Token</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_at5_d2l_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_svq_22l_ldc" src="../Images/copyaccesstoken.png" alt="Arrow pointing to a text box that has a copy button that will copy a link for the access token. ">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 15. </span>Image depicting step described above</figcaption></figure>
+
+                        </div>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Paste Access Token into Oxygen</span>
+                        <div class="itemgroup info">
+                            <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_kk4_32l_ldc">
+                                
+                                <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_svl_r2l_ldc" src="../Images/pasteaccesstokenintooxygen.png" alt="Arrow pointing to a text box labeled &#34;Access Token&#34;. ">
+                            <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 16. </span>Image depicting step described above</figcaption></figure>
+
+                        </div>
+                    </li>
+                </ol>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click Create Project at the bottom of the screen.</span>
+                <div class="itemgroup info">
+                    <figure class="fig figure w-100 mw-100 p-3" id="task_ivr_mcp_jdc__fig_ify_hfl_ldc">
+                        
+                        <img class="image figure-img img-fluid border rounded" id="task_ivr_mcp_jdc__image_h5b_jfl_ldc" src="../Images/createprojectbluebotton.png" alt="Arrow pointing to a blue button at the bottom of the screen labeled &#34;Create Project&#34;.">
+                    <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 17. </span>Image depicting step described above</figcaption></figure>
+
+                </div>
+            </li></ol></section>
+    </div>
+</article></main></div><script language="javascript" src="../js/popovers.js"></script><script language="javascript" src="../js/dark-mode-toggler.js"></script><footer role="contentinfo" class="mt-3 border-top bg-primary-subtle"><!-- Footer --><footer class="text-center" style="background-color: rgba(0, 0, 0, 0.2)">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <!-- Social Media -->
+        <p class="text-center p-3">
+          <!-- Linkedin
+          <a class="btn btn-primary btn-floating m-1 text-white" style="background-color: #0082ca" href="https://www.linkedin.com/in/jason-fox-8a79563/" role="button"><i class="bi bi-linkedin"></i></a>
+           -->
+          <!-- Github 
+          <a class="btn btn-primary btn-floating m-1 text-white" style="background-color: #333333" href="https://github.com/carlosevia/" role="button"><i class="bi bi-github"></i></a>
+        -->
+        </p>
+      </div>
+      <div>
+      </div>
+    </div>
+  </div>
+</footer><!-- Footer --></footer></body></html>
