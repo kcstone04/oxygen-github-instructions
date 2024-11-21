@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-github-acct">
+    <title>Create an Account on GitHub</title>
+    <shortdesc>In this step, you will learn how to create an account on GitHub.</shortdesc>
+    <taskbody>
+        <context>This task includes learning how to create a GitHub login and verify the account to
+            use.</context>
+        <steps>
+            <step>
+                <cmd>Go to <xref href="https://github.com/signup" format="html" scope="external"
+                        >https://github.com/signup</xref>.</cmd>
+            </step>
+            <step>
+                <cmd>Enter your email into the blue box in the center of the screen. Make sure to
+                    use an email that you have access to, as you will need to view GitHub emails
+                    regarding your commits in the future.</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_jq4_2hm_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/SignUpForGitHub/enteremail.png" id="image_jhb_fhm_ldc"
+                        alt="An arrow is pointing to a blue text box that is titled &quot;Enter your email&quot;."
+                    />
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Click the green “continue” button.</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_irm_4hm_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/SignUpForGitHub/clickcontinueemail.png"
+                        id="image_qsw_4hm_ldc"
+                        alt="An arrow is pointing to a button that is labeled &quot;Continue&quot;."
+                    />
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Create a password. Make sure the password you choose is unique from your other
+                    passwords – consider using a mix of numbers, letters, and special characters.
+                </cmd>
+            </step>
+            <step>
+                <cmd>Type your new password into the blue box.</cmd>
+                <info>
+                    <fig id="fig_bwp_rhm_ldc">
+                        <title>Image depicting step described above</title>
+                        <image href="../Images/SignUpForGitHub/createpasswordemail.png"
+                            id="image_en2_shm_ldc"
+                            alt="An arrow is pointing to a blue text box that is titled &quot;Create a password&quot;."
+                        />
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click on the green "continue" button.</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_xwp_5hm_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/SignUpForGitHub/clickcontunieforpassword.png"
+                        id="image_zrz_t3m_ldc"
+                        alt="An arrow is pointing to a button that is labeled &quot;Continue&quot;."
+                    />
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Enter your desired username into the blue box in the center of the screen. Make
+                    sure to choose something you will remember, such as your first and last
+                    name.</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_bdp_w3m_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/SignUpForGitHub/enterusername2.png" id="image_rh3_ljm_ldc"
+                        alt="An arrow is pointing to a blue box titled &quot;Enter a username&quot;."
+                    />
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Click on the green “continue” button.</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_ffv_w3m_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/SignUpForGitHub/cusername.png" id="image_xnt_hkm_ldc"
+                        alt="An arrow is pointing to a button that is labeled &quot;Continue&quot;."
+                    />
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Verify your account by solving the puzzle that appears on your screen.</cmd>
+            </step>
+            <step>
+                <cmd>Go to your email inbox to retrieve the 8-digit GitHub launch code.</cmd>
+            </step>
+            <step>
+                <cmd>Enter the code into the boxes on the screen.</cmd>
+            </step>
+            <step>
+                <cmd>Sign in to your GitHub account. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

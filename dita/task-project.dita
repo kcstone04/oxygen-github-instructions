@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_ivr_mcp_jdc">
+    <title>Making a Project in Oxygen Content Fusion</title>
+    <shortdesc>In this step, you will learn how to create a project on Oxygen Content
+        Fusion.</shortdesc>
+    <taskbody>
+        <context>This task includes learning how to create a project file on Oxygen Content Fusion
+            that links to the repository you created in GitHub.</context>
+        <steps>
+            <step>
+                <cmd>Hover over the top left corner of the screen and select the "Projects"
+                    tab</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_pdp_db1_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/clickproject.png" id="image_xs4_gb1_ldc"
+                        alt="An arrow is pointing to a white button in the top left hand corner of the screen that is titled projects."
+                    />
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Click "New Project" in Oxygen Content Fusion</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_mph_lb1_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/newproject.png" id="image_skl_mb1_ldc"
+                        alt="An arrow pointed to a blue button on the right hand side of the screen that is titled New Project."
+                    />
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Create a name for your new project</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_bvk_pb1_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/nameproject.png" id="image_abx_pb1_ldc"
+                        alt="An arrow is pointing to a type box that is labeled &quot;Name&quot;."/>
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Copy the link from your repository</cmd>
+            </step>
+            <step>
+                <cmd>Paste link of your repository into Oxygen </cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_npj_wb1_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/giturlproject.png" id="image_f31_yb1_ldc"
+                        alt="Arrow pointing to the text box that has the repository link. "/>
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Set the branch to "master"</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_arx_rzj_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/masterbranchproject.png" id="image_cw1_tzj_ldc"
+                        alt="Arrow pointing to a text box labeled &quot;Branch&quot;."/>
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Paste your GitHub Username into Oxygen </cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_oc4_rdk_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/githubusernameproject.png" id="image_qj5_5dk_ldc"
+                        alt="Arrow points to a text box labeled &quot;Username&quot;."/>
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Get a GitHub token to connect it to the GitHub repository</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Click the link next “Generate Access Token”</cmd>
+                        <info>
+                            <fig id="fig_dbc_32k_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/generateaccesstoken.png"
+                                    id="image_tc4_m2k_ldc"
+                                    alt="Arrow points to a link at the bottom of the screen that is labeled &quot;Generate Access Token&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click “Generate New Token” at the top left hand of the screen. </cmd>
+                        <info>
+                            <fig id="fig_xzh_rfk_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/clickgeneratenewtoke.png"
+                                    id="image_dk2_sfk_ldc"
+                                    alt="Arrow pointing to the top of the right side of the screen to a button labeled &quot;Generate New Token&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Type in a new name for this token</cmd>
+                        <info>
+                            <fig id="fig_vjh_5kk_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/nametoken.png" id="image_sdc_vkk_ldc"
+                                    alt="Arrow is pointed to a text box labeled &quot;token name&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click on “Only Selected Repositories”</cmd>
+                        <info>
+                            <fig id="fig_dbt_ylk_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/onlyselectedrepostiry.png"
+                                    id="image_py3_1mk_ldc"
+                                    alt="Arrow is pointing to a check box labeled &quot;Only Selected Repositories&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Select the repository you made that you would like to connect to
+                            Oxygen. </cmd>
+                        <info>
+                            <fig id="fig_ghw_pdl_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/selectrepositoryfortoken.png"
+                                    id="image_pxw_qdl_ldc"
+                                    alt="Arrow pointing ot a text box that is labeled &quot;Search for Repository&quot;"
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click “Repository Permissions”</cmd>
+                        <info>
+                            <fig id="fig_kzg_5dl_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/clickrepositorypermissions.png"
+                                    id="image_bww_5dl_ldc"
+                                    alt="Arrow pointing to a drop down labeled &quot;Repository Permissions&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Give it Read and Write Access under Contents</cmd>
+                        <info>
+                            <fig id="fig_qgf_xdl_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/contentsredandwrite.png"
+                                    id="image_jwq_xdl_ldc"
+                                    alt="Arrow pointing to a drop down that is connected to contents."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click Generate Token</cmd>
+                        <info>
+                            <fig id="fig_alt_12l_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/clickgeneratetokengreenbotton.png"
+                                    id="image_b5j_b2l_ldc"
+                                    alt="Arrow pointing at a green button at the bottom of the page called &quot;Generate Token&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Copy Access Token</cmd>
+                        <info>
+                            <fig id="fig_at5_d2l_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/copyaccesstoken.png" id="image_svq_22l_ldc"
+                                    alt="Arrow pointing to a text box that has a copy button that will copy a link for the access token. "
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Paste Access Token into Oxygen</cmd>
+                        <info>
+                            <fig id="fig_kk4_32l_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/pasteaccesstokenintooxygen.png"
+                                    id="image_svl_r2l_ldc"
+                                    alt="Arrow pointing to a text box labeled &quot;Access Token&quot;. "
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Click Create Project at the bottom of the screen.</cmd>
+                <info>
+                    <fig id="fig_ify_hfl_ldc">
+                        <title>Image depicting step described above</title>
+                        <image href="../Images/createprojectbluebotton.png" id="image_h5b_jfl_ldc"
+                            alt="Arrow pointing to a blue button at the bottom of the screen labeled &quot;Create Project&quot;."
+                        />
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-oxygen-acct">
+    <title>Log In to Your Account on Oxygen Content Fusion </title>
+    <shortdesc>In this step, you will learn how to login on Oxygen Content Fusion. </shortdesc>
+    <taskbody>
+        <context>This task includes learning where to find the correct login link on Oxygen Content
+            Fusion and how to log in with your Virginia Tech account</context>
+        <steps>
+            <step>
+                <cmd>Go to <xref href="https://carnage.clahs.vt.edu/" format="html" scope="external"
+                            ><u>https://carnage.clahs.vt.edu/</u></xref>. You should already have an
+                    account through the school, so no need to create one.</cmd>
+            </step>
+            <step>
+                <cmd>Log in with your Virginia Tech credentials. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

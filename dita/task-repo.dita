@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_ivr_mcp_jdc">
+    <title>Creating the GitHub Repository</title>
+    <shortdesc>In this step, you will learn how to create a repository in GitHub.</shortdesc>
+    <taskbody>
+        <context>
+            <p>This step will teach you how to create the repository based off of the GitHub Actions
+                template. This is necessary to get the GitHub side of your project truly started. </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open up the GitHub Actions template.</cmd>
+                <info>
+                    <p>Template link: <xref href="https://github.com/VT-Evia/dita-ot-actions"
+                            format="html" scope="external"
+                                ><u>https://github.com/VT-Evia/dita-ot-actions</u></xref></p>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the button that says "Use This Template" in the top right of the screen,
+                    then select "Create Repository".</cmd>
+                <info>
+                    <fig id="fig_cyp_qyz_kdc">
+                        <title>Image depicting step described above</title>
+                        <image href="../Images/clickusetemp.png" id="image_l45_vyz_kdc"
+                            alt="Picture of arrow pointing to &quot;create a new repository&quot; button."
+                        />
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Select "Include all Branches".</cmd>
+                <info>
+                    <fig id="fig_vyj_dzz_kdc">
+                        <title>Image depicting step described above</title>
+                        <image href="../Images/includebranches.png" id="image_k2s_2zz_kdc"
+                            alt="Picture of arrow pointing to include all branches on GitHub website."
+                        />
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Name your new repository.</cmd>
+                <info>
+                    <fig id="fig_etg_3zz_kdc">
+                        <title>Image depicting step described above</title>
+                        <image href="../Images/namerepository.png" id="image_chw_3zz_kdc"
+                            alt="Arrow pointing to Repository Name type box."/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click "Create Repository" to finalize it.</cmd>
+                <info>
+                    <fig id="fig_ijt_lzz_kdc">
+                        <title>Image depicting step described above</title>
+                        <image href="../Images/createrepository.png" id="image_gqd_nzz_kdc"
+                            alt="Arrow pointing to a green button at the bottom of the screen that is titled &quot;Create Repository&quot;."
+                        />
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Once the repository is made, Click "Settings"</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_ttt_bh4_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/NewStep/clicksetting2.png" id="image_o4k_dh4_ldc"
+                        alt="An arrow pointing to the top menu bar, more specifically the word labeled &quot;Settings&quot;."
+                    />
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Click "Actions"</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_wtb_3h4_ldc">
+                <title>Image depicting step described above</title>
+            <image href="../Images/NewStep/clickaction2.png" id="image_f53_3h4_ldc"
+                        alt="An arrow is pointing to the left menu, more specifically the word labeled &quot;Actions&quot;."
+                    />
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Scroll down to"Workflow Permissions"</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_k1z_ph4_ldc">
+                    <title>Image depicting step described above</title>
+                    <image href="../Images/NewStep/gotoworkflow.png" id="image_mwg_qh4_ldc"
+                        alt="An arrow is pointing to a section titled &quot;Workflow Permissions&quot;."
+                    />
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Click "Read and write permissions".</cmd>
+            <info>
+                    <fig id="fig_osd_yh4_ldc">
+                        <title>Image depicting step described above</title>
+                        <image href="../Images/NewStep/readandwritepremssions.png"
+                            id="image_rm4_yh4_ldc"
+                            alt="An arrow is pointing to a titled section called &quot;Read And Write Permissions&quot;."
+                        />
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

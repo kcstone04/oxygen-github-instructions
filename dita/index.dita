@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="index-introduction">
+    <title>Introduction</title>
+    <body>
+        <p>This user guide will teach beginners how to utilize Oxygen Content Fusion to publish DITA
+            to GitHub using the Actions template. Users will follow six step-by-step topics to
+            achieve this goal.</p>
+        <p>This template includes two folders and four files that will set up the basis of your
+            project. It will make your project visually appealing for both digital and print, so
+            that you can focus on creating the content.</p>
+    </body>
+</topic>

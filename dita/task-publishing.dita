@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_ivr_mcp_jdc">
+    <title>Publishing to GitHub Using GitHub Actions</title>
+    <shortdesc>In this step, you’ll learn how to publish your content.</shortdesc>
+    <taskbody>
+        <context>
+            <p>This step will walk you through the process of publishing your content through GitHub
+                Actions. This is the point where your work in Oxygen and GitHub truly merges into
+                one single workflow. </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Make Sure You Have a .ditamap File in Oxygen.</cmd>
+                <info>This is necessary, as this is the file that GitHub will be trying to pull
+                    from. Name it "document.ditamap" to make sure it works. </info>
+            </step>
+            <step>
+                <cmd>Ensure that all changes made on Oxygen are committed.</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>From the Oxygen personal workspace, Click "Changes" on the left
+                            sidebar.</cmd>
+                        <info>
+                            <fig id="fig_gv3_q1m_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/changesleft.png"
+                                    id="image_vz1_r1m_ldc"
+                                    alt="An arrow pointing to the left side menu to the button labeled &quot;Changes&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Press the blue "Commit" button.</cmd>
+                        <info>
+                            <fig id="fig_vwt_x1m_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/firstcommit.png"
+                                    id="image_jnk_y1m_ldc"
+                                    alt="An arrow is pointing to a blue button labeled with the word &quot;Commit&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Write a message briefly describing what you have changed. </cmd>
+                        <info>
+                            <fig id="fig_qc2_dbm_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/commitmessage.png"
+                                    id="image_sy3_2bm_ldc"
+                                    alt="An arrow is pointing to a text box that is labeled &quot;Commit Message&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd> Click the blue "Commit Button".</cmd>
+                        <info>
+                            <fig id="fig_lhg_hbm_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/secondcommit.png"
+                                    id="image_mnq_hbm_ldc"
+                                    alt="An arrow is pointing to a blue button that is labeled &quot;Commit&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Finding your GitHub PDF deliverables!</cmd>
+                <substeps id="substeps_hqs_bdv_kdc">
+                    <substep>
+                        <cmd>Go to your Repositories. Found at the top menu bar.</cmd>
+                        <info>
+                            <fig id="fig_ery_jbm_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/githubfindrepository.png"
+                                    id="image_fcm_kbm_ldc"
+                                    alt="An arrow is pointing to the top menu bar, and specifically to the word &quot;Repositories&quot;. "
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click on the repository you would like to publish.</cmd>
+                        <info>
+                            <fig id="fig_fxg_pbm_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/repositorytopublish.png"
+                                    id="image_ytr_pbm_ldc"
+                                    alt="An arrow is pointing to a specific repository that this person would like to publish. "
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click on "Actions". </cmd>
+                        <info>
+                            <fig id="fig_scp_tbm_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/clickactions.png"
+                                    id="image_zcb_5bm_ldc"
+                                    alt="An arrow is pointing to the top menu bar and specifically at the word labeled &quot;Actions&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click on your most recent commit.</cmd>
+                        <info>
+                            <fig id="fig_alr_wbm_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/clickmostrecentcommit.png"
+                                    id="image_rvz_wbm_ldc"
+                                    alt="An arrow is pointing to the most recent commit within this repository."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click on the link of the PDF file at the bottom of the page.</cmd>
+                        <info>
+                            <fig id="fig_nw5_bcm_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/clickpdf.png"
+                                    id="image_wbz_ccm_ldc"
+                                    alt="An arrow is pointing at the bottom of the screen where a link is labeled &quot;dita-pdf&quot;. "
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Finding your GitHub HTML deliverables!</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Go to your "Repositories" Found at the top menu bar.</cmd>
+                        <info>
+                            <fig id="fig_mfd_gcm_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/githubfindrepository.png"
+                                    alt="An arrow is pointing to the top menu bar, and specifically to the word &quot;Repositories&quot;. "
+                                    id="image_p1r_hcm_ldc"/>
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click on the repository you would like to publish.</cmd>
+                        <info>
+                            <fig id="fig_l4x_hcm_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/clickactions.png"
+                                    alt="An arrow is pointing to the top menu bar and specifically at the word labeled &quot;Actions&quot;."
+                                    id="image_upr_3cm_ldc"/>
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click "Settings".</cmd>
+                        <info>
+                            <fig id="fig_jkd_jcm_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/clicksettings.png"
+                                    id="image_q22_kcm_ldc"
+                                    alt="An arrow is pointing to the top menu bar and specifically to the word labeled &quot;Settings&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click "Pages".</cmd>
+                        <info>
+                            <fig id="fig_chl_jcm_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/clickpages.png"
+                                    id="image_jw3_mcm_ldc"
+                                    alt="An arrow is pointing at the left side menu and specifically pointing at the word labeled &quot;Pages&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click the link to the website at the top of the page. </cmd>
+                        <info>
+                            <fig id="fig_v3r_jcm_ldc">
+                                <title>Image depicting step described above</title>
+                                <image href="../Images/Publishing/clicklink.png"
+                                    id="image_sqn_xcm_ldc"
+                                    alt="An arrow is pointing at the top of the screen where the blue link to the HTML website is. "
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>

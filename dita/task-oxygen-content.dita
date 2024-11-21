@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_ivr_mcp_jdc">
+    <title>Adding Content on Oxygen</title>
+    <shortdesc>In this step, you'll learn how to start adding content to Oxygen</shortdesc>
+    <taskbody>
+        <context>This task includes learning how to create a ditamap and create files, implement
+            titles, descriptions, subheadings, paragraphs, and more<p>Steps</p></context>
+        <steps>
+            <step>
+                <cmd>Creating a DITA map</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Click on the three dots to open files</cmd>
+                        <info>
+                            <fig id="fig_vjh_ksl_ldc">
+                                <title>Image Depicting This Step Described Above<image
+                                        href="../Images/Oxygen%20Content%20Task/threedots.png"
+                                        id="image_rvb_gsl_ldc"
+                                        alt="Arrow pointing to three dots at the top of the screen and next to the label &quot;File&quot;."
+                                    /></title>
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click "New File"</cmd>
+                        <info>
+                            <fig id="fig_iyb_lsl_ldc">
+                                <title>Image Depicting This Step Described Above<image
+                                        href="../Images/Oxygen%20Content%20Task/newfile.png"
+                                        id="image_s5j_lsl_ldc"
+                                        alt="Arrow pointing to the drop down menu, specific the one labeled &quot;New File&quot;."
+                                    /></title>
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click on the tab marked "DITA" on the left side menu. </cmd>
+                        <info>
+                            <fig id="fig_idq_ssl_ldc">
+                                <title>Image Depicting This Step Described Above<image
+                                        href="../Images/Oxygen%20Content%20Task/tabmarkeddita.png"
+                                        id="image_zcp_zsl_ldc"
+                                        alt="Arrow pointing to a button called &quot;DITA&quot; on the left hand side menu."
+                                    /></title>
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click on the option titled "Map".</cmd>
+                        <info>
+                            <fig id="fig_k5h_ctl_ldc">
+                                <title>Image Depicting This Step Described Above<image
+                                        href="../Images/Oxygen%20Content%20Task/filecalledmap.png"
+                                        id="image_w3x_ctl_ldc"
+                                        alt="Arrow pointing to an option in the center menu labeled &quot;Map&quot;."
+                                    /></title>
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Name the .ditamap "document".</cmd>
+                        <info>
+                            <fig id="fig_lxz_ltl_ldc">
+                                <title>Image Depicting This Step Described Above<image
+                                        href="../Images/Oxygen%20Content%20Task/titleformap.png"
+                                        id="image_jh1_dvl_ldc"
+                                        alt="Arrow is pointing to a text box labeled &quot;Enter Title&quot; and in the text box is the word &quot;document&quot;."
+                                    /></title>
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click the blue button labeled "OK".  </cmd>
+                        <info>
+                            <fig id="fig_xcy_htl_ldc">
+                                <title>Image Depicting This Step Described Above<image
+                                        href="../Images/Oxygen%20Content%20Task/okmap.png"
+                                        id="image_pdw_fvl_ldc"
+                                        alt="Arrow is pointing to a blue button at the button of the page that is titled &quot;Ok&quot;."
+                                    /></title>
+                            </fig>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Creating a Topic</cmd>
+                <substeps id="substeps_q1x_stl_ldc">
+                    <substep>
+                        <cmd>Click on the three dots to open files</cmd>
+                        <info>
+                            <fig id="fig_vqb_rtl_ldc">
+                                <title>Image Depicting This Step Described Above<image
+                                        href="../Images/Oxygen%20Content%20Task/threedots.png"
+                                        alt="Arrow pointing to three dots at the top of the screen and next to the label &quot;File&quot;."
+                                        id="image_wqb_rtl_ldc"/></title>
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click "New File"</cmd>
+                        <info>
+                            <fig id="fig_u1x_stl_ldc">
+                                <title>Image Depicting This Step Described Above</title>
+                                <image href="../Images/Oxygen%20Content%20Task/newfile.png"
+                                    alt="Arrow pointing to the drop down menu, specific the one labeled &quot;New File&quot;."
+                                    id="image_v1x_stl_ldc"/>
+                            </fig>
+                        </info>
+                    </substep>
+                </substeps>
+                <substeps id="substeps_r1x_stl_ldc">
+                    <substep>
+                        <cmd>Click on the tab marked "DITA" on the left side menu.</cmd>
+                    </substep>
+                </substeps>
+                <info>
+                    <fig id="fig_ibx_ztl_ldc">
+                        <title>Image Depicting This Step Described Above</title>
+                        <image href="../Images/Oxygen%20Content%20Task/tabmarkeddita.png"
+                            alt="Arrow pointing to a button called &quot;DITA&quot; on the left hand side menu."
+                            id="image_jbx_ztl_ldc"/>
+                    </fig>
+                </info>
+                <substeps id="substeps_gbx_ztl_ldc">
+                    <substep>
+                        <cmd>Click on the option titled "Topic".</cmd>
+                        <info>
+                            <fig id="fig_zwk_b5l_ldc">
+                                <title>Image Depicting This Step Described Above</title>
+                                <image href="../Images/Oxygen%20Content%20Task/clicktopic.png"
+                                    id="image_nyb_c5l_ldc"
+                                    alt="Arrow pointing to the center menu at the option titled &quot;Topic&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Give the New File a name</cmd>
+                        <info>
+                            <fig id="fig_pjl_qvl_ldc">
+                                <title>Image Depicting This Step Described Above</title>
+                                <image href="../Images/Oxygen%20Content%20Task/titlefortopic.png"
+                                    id="image_r51_5vl_ldc"
+                                    alt="Arrow is pointing to a text box at the bottom of the screen that is labeled &quot;Enter Text&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click the blue button labeled "OK". </cmd>
+                        <info>
+                            <fig id="fig_gjw_zvl_ldc">
+                                <title>Image Depicting This Step Described Above</title>
+                                <image href="../Images/Oxygen%20Content%20Task/oktopic.png"
+                                    id="image_kvb_1wl_ldc"
+                                    alt="Arrow is pointing to a blue button at the bottom of the screen labeled &quot;Ok&quot;."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Drag the topic file into the DITA map file</cmd>
+            </step>
+            <stepsection>
+                <fig id="fig_p3v_gwl_ldc">
+                    <title>Image Depicting This Step Described Above</title>
+                    <image href="../Images/Oxygen%20Content%20Task/topicdragditmap.png"
+                        id="image_t4b_hwl_ldc"
+                        alt="One arrow is pointing to a topic.dita file, while the other arrow that is connect to the first on is pointing into the ditmap file."
+                    />
+                </fig>
+            </stepsection>
+            <step>
+                <cmd>Start adding your content</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Click the "Return" key on your keyboard anywhere on the Topic File. </cmd>
+                        <info>
+                            <fig id="fig_kcf_cyl_ldc">
+                                <title>Image Depicting This Step Described Above</title>
+                                <image href="../Images/Oxygen%20Content%20Task/returnontitle.png"
+                                    id="image_jfm_dyl_ldc"
+                                    alt="Arrow is pointing to a text box that appeared that the top of the page when the key &quot;Returned&quot; was pressed."
+                                />
+                            </fig>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Type in the text box whatever type of content you would like to add to
+                            that Topic File. Examples could be Titles, Subtitles, Short
+                            descriptions, Sections, Figures, Images, Adding alt text, Paragraphs,
+                            etc. </cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>
